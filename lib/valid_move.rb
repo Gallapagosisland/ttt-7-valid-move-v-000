@@ -4,8 +4,9 @@ def valid_move?(board, index)
     return false
   elsif index.between?(1,9)
     return true
-  else
+  elsif index > 9 || index < 1
     return false
+
   end
 end
 
