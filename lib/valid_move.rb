@@ -2,11 +2,7 @@
 def valid_move?(board, index)
   if index.between?(1,9)
     return true
-  elsif position_taken? == true
-    return true
-
   end
-
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
